@@ -8,11 +8,11 @@ const FinalCTASection = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-cyan-50/50 to-blue-50/50">
       <div className="max-w-4xl mx-auto px-6 text-center space-y-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
           {finalCTA.title}
         </h2>
         
-        <p className="text-xl text-gray-600 leading-relaxed">
+        <p className="text-xl text-gray-600 leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
           {finalCTA.description}
         </p>
 

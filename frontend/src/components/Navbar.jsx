@@ -15,11 +15,15 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-6 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold text-gray-800">
-            Mind<span className="text-orange-500">Care</span>
+          <div className="flex items-center">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_wp-to-html-daycare/artifacts/bg5sp5v2_Logo_transparent.png" 
+              alt="Infinite Mind" 
+              className="h-16 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

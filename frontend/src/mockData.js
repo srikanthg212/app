@@ -2,7 +2,7 @@
 
 export const mockData = {
   hero: {
-    tagline: "Heal. Grow. Transform.",
+    tagline: "Nurturing minds, Empowering Lives",
     title: "A safe and supportive space for your mental wellness journey",
     description: "Professional counselling services to help you navigate life's challenges, heal from past trauma, and build a healthier, happier future.",
     rating: 4.9,

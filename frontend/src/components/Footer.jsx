@@ -8,8 +8,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="text-2xl font-bold">
-              Mind<span className="text-orange-500">Care</span>
+            <div className="flex items-center">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_wp-to-html-daycare/artifacts/q8m5g5ed_Fresco_shade.png" 
+                alt="Infinite Mind" 
+                className="h-20 w-auto"
+              />
             </div>
             <p className="text-gray-400">
               Professional counselling services for your mental wellness journey.
@@ -64,7 +68,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail size={16} className="text-orange-500" />
-                info@mindcare.com
+                info@infinitemind.com
               </li>
               <li className="flex items-start gap-2 text-gray-400">
                 <MapPin size={16} className="text-orange-500 mt-1" />
@@ -76,7 +80,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2025 MindCare Counselling. All rights reserved.</p>
+          <p>&copy; 2025 Infinite Mind Counselling. All rights reserved.</p>
         </div>
       </div>
     </footer>

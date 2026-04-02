@@ -9,10 +9,10 @@ const ApproachesSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase mb-4">
+          <p className="text-sm font-medium text-gray-600 tracking-wide uppercase mb-4" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
             {approaches.tagline}
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800" style={{ fontFamily: "'Playfair Display', serif" }}>
             {approaches.title}
           </h2>
         </div>
@@ -24,10 +24,10 @@ const ApproachesSection = () => {
               key={approach.id}
               className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100"
             >
-              <h4 className="text-xl font-bold text-gray-800 mb-4">
+              <h4 className="text-xl font-bold text-gray-800 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
                 {approach.name}
               </h4>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif" }}>
                 {approach.description}
               </p>
             </div>

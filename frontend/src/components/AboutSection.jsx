@@ -23,19 +23,19 @@ const AboutSection = () => {
 
           {/* Right - Content */}
           <div className="space-y-6">
-            <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase">
+            <p className="text-sm font-medium text-gray-600 tracking-wide uppercase" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
               {about.tagline}
             </p>
             
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
               {about.title}
             </h2>
             
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif" }}>
               {about.description1}
             </p>
             
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif" }}>
               {about.description2}
             </p>
 
@@ -53,11 +53,11 @@ const AboutSection = () => {
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div className="flex-1">
-                  <p className="text-gray-700 italic mb-4">
+                  <p className="text-gray-700 italic mb-4" style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>
                     "{about.quote}"
                   </p>
-                  <p className="font-semibold text-gray-800">{about.founder.name}</p>
-                  <p className="text-sm text-gray-600">{about.founder.title}</p>
+                  <p className="font-semibold text-gray-800" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{about.founder.name}</p>
+                  <p className="text-sm text-gray-600" style={{ fontFamily: "'Montserrat', sans-serif" }}>{about.founder.title}</p>
                 </div>
               </div>
             </div>

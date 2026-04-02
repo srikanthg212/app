@@ -10,10 +10,10 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase mb-4">
+          <p className="text-sm font-medium text-gray-600 tracking-wide uppercase mb-4" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
             {services.tagline}
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800" style={{ fontFamily: "'Playfair Display', serif" }}>
             {services.title}
           </h2>
         </div>
@@ -33,13 +33,14 @@ const ServicesSection = () => {
                 />
               </div>
               <div className="p-8 space-y-4">
-                <h3 className="text-2xl font-bold text-gray-800">{service.name}</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <h3 className="text-2xl font-bold text-gray-800" style={{ fontFamily: "'Playfair Display', serif" }}>{service.name}</h3>
+                <p className="text-gray-600 leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif" }}>
                   {service.description}
                 </p>
                 <a
                   href="#"
                   className="inline-flex items-center text-orange-500 font-semibold hover:text-orange-600 transition-colors group"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}
                 >
                   Learn more
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />

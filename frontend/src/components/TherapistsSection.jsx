@@ -9,10 +9,10 @@ const TherapistsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase mb-4">
+          <p className="text-sm font-medium text-gray-600 tracking-wide uppercase mb-4" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
             {therapists.tagline}
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800" style={{ fontFamily: "'Playfair Display', serif" }}>
             {therapists.title}
           </h2>
         </div>
@@ -32,10 +32,10 @@ const TherapistsSection = () => {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                <h3 className="text-xl font-bold text-gray-800 mb-2" style={{ fontFamily: "'Playfair Display', serif" }}>
                   {therapist.name}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600" style={{ fontFamily: "'Montserrat', sans-serif" }}>
                   {therapist.role}
                 </p>
               </div>
