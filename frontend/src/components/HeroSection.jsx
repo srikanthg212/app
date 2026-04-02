@@ -33,7 +33,7 @@ const HeroSection = () => {
               {hero.tagline}
             </p>
             
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
               {hero.title}
             </h1>
             

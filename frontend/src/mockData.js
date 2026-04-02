@@ -59,7 +59,7 @@ export const mockData = {
         name: "Single Session",
         description: "Perfect for those wanting to try therapy or needing occasional support for specific issues or life challenges.",
         time: "50 minutes",
-        price: "$150/session"
+        price: "₹1,000/session"
       },
       {
         id: 2,
@@ -67,7 +67,7 @@ export const mockData = {
         name: "Monthly Package",
         description: "Four weekly sessions for ongoing support and consistent progress in your therapeutic journey.",
         time: "4 sessions",
-        price: "$540/month"
+        price: "₹4,000/month"
       },
       {
         id: 3,
@@ -75,7 +75,7 @@ export const mockData = {
         name: "Intensive Program",
         description: "Eight bi-weekly sessions for intensive therapeutic work addressing complex issues and deep-rooted patterns.",
         time: "8 sessions",
-        price: "$1,000/program"
+        price: "₹8,000/program"
       }
     ],
     note: "We accept most major insurance plans and offer sliding scale fees based on financial need."
