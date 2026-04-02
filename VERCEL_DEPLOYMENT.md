@@ -45,11 +45,14 @@ Your app is now **ready for Vercel deployment** with the following fixes:
 1. Go to [vercel.com](https://vercel.com)
 2. Click **"Add New Project"**
 3. Import from GitHub: `https://github.com/srikanthg212/InfiniteMind`
-4. **Framework Preset**: Create React App
+4. **Framework Preset**: Other (NOT Create React App)
 5. **Root Directory**: `frontend`
-6. **Build Command**: `yarn build` or `yarn vercel-build`
+6. **Build Command**: `yarn build`
 7. **Output Directory**: `build`
-8. Click **"Deploy"**
+8. **Install Command**: `yarn install`
+9. Click **"Deploy"**
+
+**Important:** Set Framework Preset to "Other" to prevent Vercel from auto-detecting and using react-scripts instead of CRACO.
 
 ---
 
@@ -97,7 +100,18 @@ After deployment:
 
 ## 🐛 Troubleshooting
 
-### If build fails on Vercel:
+### If build fails with "react-scripts: command not found":
+
+**Solution:** Vercel is trying to use react-scripts instead of CRACO.
+
+1. In Vercel Dashboard, go to **Project Settings**
+2. Go to **General** → **Build & Development Settings**
+3. Set **Framework Preset**: `Other` (NOT Create React App)
+4. Set **Build Command**: `yarn build`
+5. Set **Install Command**: `yarn install`
+6. **Redeploy**
+
+### Other common issues:
 
 1. **Check Node version**: Vercel uses Node 18 by default
 2. **Clear cache**: Redeploy with cache cleared
