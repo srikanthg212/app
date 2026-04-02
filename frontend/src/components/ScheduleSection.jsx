@@ -10,10 +10,10 @@ const ScheduleSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-gray-600 tracking-wide uppercase mb-4" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
+          <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase mb-4">
             {pricing.tagline}
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800" style={{ fontFamily: "'Playfair Display', serif" }}>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800">
             {pricing.title}
           </h2>
         </div>
@@ -25,23 +25,23 @@ const ScheduleSection = () => {
               key={plan.id}
               className="relative bg-gradient-to-br from-cyan-50/40 to-blue-50/40 rounded-3xl p-8 hover:shadow-xl transition-all duration-300 border border-gray-100"
             >
-              <div className="text-sm font-bold text-gray-400 mb-4" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>
+              <div className="text-sm font-bold text-gray-400 mb-4">
                 {plan.number}
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
                 {plan.name}
               </h3>
-              <p className="text-gray-600 leading-relaxed mb-6" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+              <p className="text-gray-600 leading-relaxed mb-6">
                 {plan.description}
               </p>
               <div className="space-y-2 mb-6">
                 <div className="flex items-center justify-between py-3 border-t border-gray-200">
-                  <span className="text-gray-700 font-medium" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>Duration</span>
-                  <span className="text-gray-800 font-semibold" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>{plan.time}</span>
+                  <span className="text-gray-700 font-medium">Duration</span>
+                  <span className="text-gray-800 font-semibold">{plan.time}</span>
                 </div>
                 <div className="flex items-center justify-between py-3 border-t border-gray-200">
-                  <span className="text-gray-700 font-medium" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>Investment</span>
-                  <span className="text-orange-500 font-bold text-lg" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 700 }}>{plan.price}</span>
+                  <span className="text-gray-700 font-medium">Investment</span>
+                  <span className="text-orange-500 font-bold text-lg">{plan.price}</span>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ const ScheduleSection = () => {
 
         {/* Note and CTA */}
         <div className="text-center space-y-6">
-          <p className="text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+          <p className="text-gray-600 max-w-2xl mx-auto">
             {pricing.note}
           </p>
           <Button className="bg-orange-500 hover:bg-orange-600 text-white rounded-full px-8 py-6 text-base">

@@ -12,7 +12,7 @@ const Footer = () => {
               <img 
                 src="https://customer-assets.emergentagent.com/job_wp-to-html-daycare/artifacts/q8m5g5ed_Fresco_shade.png" 
                 alt="Infinite Mind" 
-                className="h-20 w-auto"
+                className="h-24 w-auto"
               />
             </div>
             <p className="text-gray-400">

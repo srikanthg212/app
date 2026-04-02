@@ -20,15 +20,15 @@ const WhyUsSection = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <div>
-              <p className="text-sm font-medium text-gray-600 tracking-wide uppercase mb-4" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
+              <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase mb-4">
                 {whyUs.tagline}
               </p>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
                 {whyUs.title}
               </h2>
             </div>
             
-            <p className="text-gray-600 text-lg leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+            <p className="text-gray-600 text-lg leading-relaxed">
               {whyUs.description}
             </p>
 
@@ -38,7 +38,7 @@ const WhyUsSection = () => {
                   <div className="w-6 h-6 rounded-full bg-orange-500 flex items-center justify-center flex-shrink-0">
                     <Check size={14} className="text-white" />
                   </div>
-                  <span className="text-gray-700 font-medium" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>{feature}</span>
+                  <span className="text-gray-700 font-medium">{feature}</span>
                 </li>
               ))}
             </ul>
@@ -60,10 +60,10 @@ const WhyUsSection = () => {
                   <div className="w-12 h-12 rounded-full bg-orange-100 flex items-center justify-center mb-4 group-hover:bg-orange-500 transition-colors">
                     <Icon size={24} className="text-orange-500 group-hover:text-white transition-colors" />
                   </div>
-                  <h4 className="text-lg font-bold text-gray-800 mb-2" style={{ fontFamily: "'Playfair Display', serif" }}>
+                  <h4 className="text-lg font-bold text-gray-800 mb-2">
                     {value.name}
                   </h4>
-                  <p className="text-sm text-gray-600 leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+                  <p className="text-sm text-gray-600 leading-relaxed">
                     {value.description}
                   </p>
                 </div>

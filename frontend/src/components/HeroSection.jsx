@@ -29,15 +29,15 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
-            <p className="text-sm font-medium text-gray-600 tracking-wide uppercase" style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>
+            <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase">
               {hero.tagline}
             </p>
             
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 leading-tight">
               {hero.title}
             </h1>
             
-            <p className="text-gray-600 text-lg leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
+            <p className="text-gray-600 text-lg leading-relaxed">
               {hero.description}
             </p>
 

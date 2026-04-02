@@ -10,7 +10,7 @@ const TestimonialSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-gray-600 tracking-wide uppercase" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}>
+          <p className="text-sm font-semibold text-gray-600 tracking-wide uppercase">
             {testimonial.tagline}
           </p>
         </div>
@@ -33,15 +33,15 @@ const TestimonialSection = () => {
               <Quote size={32} className="text-orange-500" />
             </div>
             
-            <p className="text-2xl md:text-3xl text-gray-800 leading-relaxed font-medium italic" style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>
+            <p className="text-2xl md:text-3xl text-gray-800 leading-relaxed font-medium italic">
               "{testimonial.quote}"
             </p>
             
             <div className="pt-6">
-              <p className="text-lg font-bold text-gray-800" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 600 }}>
+              <p className="text-lg font-bold text-gray-800">
                 {testimonial.author}
               </p>
-              <p className="text-gray-600" style={{ fontFamily: "'Montserrat', sans-serif" }}>Client</p>
+              <p className="text-gray-600">Client</p>
             </div>
           </div>
         </div>
