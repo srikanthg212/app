@@ -100,6 +100,37 @@ After deployment:
 
 ## 🐛 Troubleshooting
 
+### ⚠️ Getting 404: NOT_FOUND Error?
+
+This is a common issue with React Router on Vercel. The fix is already included in `vercel.json`.
+
+**What was the problem?**
+- React Router handles routing on the client-side
+- Vercel's server doesn't know about these routes
+- When you visit `/about` directly, Vercel looks for `/about.html` and returns 404
+
+**Solution (already applied):**
+The `vercel.json` file now includes:
+```json
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+```
+
+This tells Vercel to serve `index.html` for ALL routes, letting React Router handle the routing.
+
+**After deploying, you should:**
+1. **Redeploy** your project on Vercel
+2. Clear Vercel's cache if needed
+3. Test by visiting different routes (/, /about, /services, etc.)
+
+---
+
 ### If build fails with "react-scripts: command not found":
 
 **Solution:** Vercel is trying to use react-scripts instead of CRACO.
