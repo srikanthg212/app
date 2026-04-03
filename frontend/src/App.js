@@ -12,6 +12,7 @@ import TherapistsSection from "./components/TherapistsSection";
 import TestimonialSection from "./components/TestimonialSection";
 import FinalCTASection from "./components/FinalCTASection";
 import Footer from "./components/Footer";
+import ScrollToTop from \"./components/ScrollToTop\";
 
 function App() {
   return (
