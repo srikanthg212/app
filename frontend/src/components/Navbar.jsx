@@ -20,7 +20,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="https://customer-assets.emergentagent.com/job_wp-to-html-daycare/artifacts/k7rdq8r0_InfinteMindLogo.png" 
+              src="https://customer-assets.emergentagent.com/job_wp-to-html-daycare/artifacts/lkxbnmr4_InfinteMindLogo_final.png" 
               alt="Infinite Mind" 
               className="h-32 w-auto"
             />
