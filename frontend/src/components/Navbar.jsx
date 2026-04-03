@@ -22,7 +22,7 @@ const Navbar = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_wp-to-html-daycare/artifacts/k7rdq8r0_InfinteMindLogo.png" 
               alt="Infinite Mind" 
-              className="h-32 w-auto"
+              className="h-40 w-auto"
             />
           </div>
 
