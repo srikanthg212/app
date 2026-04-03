@@ -22,7 +22,7 @@ const Navbar = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_wp-to-html-daycare/artifacts/k7rdq8r0_InfinteMindLogo.png" 
               alt="Infinite Mind" 
-              className="h-40 w-auto"
+              className="h-32 w-auto"
             />
           </div>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-orange-500 ${
+                className={`text-base font-medium transition-colors hover:text-orange-500 ${
                   item.active ? 'text-orange-500' : 'text-gray-600'
                 }`}
               >
