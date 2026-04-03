@@ -30,6 +30,7 @@ function App() {
         <TestimonialSection />
         <FinalCTASection />
         <Footer />
+        <ScrollToTop />
       </BrowserRouter>
     </div>
   );
